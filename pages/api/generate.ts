@@ -19,9 +19,9 @@ const handler = async (req: NextRequest): Promise<Response> => {
   }
 
   const payload: OpenAIStreamPayload = {
-    model: "text-davinci-003",
-    // model:"text-curie-001",
-    prompt,
+    // model: "text-davinci-003",
+    model: "gpt-3.5-turbo",
+    messages: [{ role: "user", content: prompt }],
     temperature: 0.7,
     top_p: 1,
     frequency_penalty: 0,

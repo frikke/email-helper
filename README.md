@@ -2,8 +2,7 @@
 
 This project generates emails for you using AI.
 
-for using the app download EmailHelper.zip
-*password 1337
+[![](./public/screenshot3.png)](https://email-helper.vercel.app/)
 
 ## Support
 `English`, `Simplified Chinese`, `Traditional Chinese`, `Japanese`, `Italian`, `German`, `Spanish`,`French`,`Dutch` ,`Korean`,`Khmer`, `Hindi`
